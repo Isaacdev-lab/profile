@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+:root {
+  --steal-color: #00998c;
+  --stealDark-color: #008a61;
+  --white-color: #f5f5f5; }
+
+/* Reset code styling */
+/* Every element in your index.html should have the styling */
+* {
+  font-family: 'bai Jamguree', sans-serif;
+  text-decoration: none;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0; }
+
+p {
+  color: grey !important; }
+
+/* Customise container */
+/* .cc-container{
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+} */
+/* Navbar Section Styling*/
+#navbar a {
+  color: var(--white-color); }
+
+#navbar a:hover {
+  color: var(--steal-color); }
+
+#navbar .btn-outline-primary {
+  color: var(--steal-color);
+  border: 1px solid var(--steal-color);
+  box-shadow: 1px 5px 10px var(--stealDark-color); }
+
+#navbar .btn-outline-primary:hover {
+  color: #fff;
+  background: var(--steal-color);
+  border: 1px solid var(--steal-color); }
+
+.bg-steal {
+  background: var(--steal-color); }
+
+.bg-steal-dark {
+  background: #000; }
+
+/* Header Secttion Styling*/
+.head {
+  background: url(../img/rainfallen-header-background.gif); }
+
+#header .btn-outline-primary {
+  color: var(--steal-color);
+  border: 1px solid var(--steal-color);
+  box-shadow: 1px 5px 10px var(--stealDark-color); }
+
+#header .btn-outline-primary:hover {
+  color: #fff;
+  background: var(--steal-color);
+  border: 1px solid var(--steal-color); }
+
+#header .btn-primary {
+  color: #fff;
+  background: var(--stealDark-color);
+  border: 1px solid var(--stealDark-color);
+  box-shadow: 1px 5px 10px var(--stealDark-color); }
+
+#header .btn-primary:hover {
+  color: #fff;
+  background: var(--steal-color);
+  border: 1px solid var(--steal-color); }
+
+#header .image {
+  border-radius: 100%; }
+
+/* Main Section One*/
+#section-one .cc-flex {
+  flex: 1; }
